@@ -53,7 +53,7 @@ fun LoginForm(signInWithGoogle: () -> Unit) {
             .padding(16.dp)
             .fillMaxWidth(),
         color = Color(0xFF171717),
-        contentColor = Color.White,
+        contentColor  = Color.White,
         shadowElevation = 8.dp,
         shape = MaterialTheme.shapes.large
     ) {
