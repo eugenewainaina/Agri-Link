@@ -41,8 +41,8 @@ fun LoginForm(signInWithGoogle: () -> Unit) {
     var email by remember { mutableStateOf("") }
     var password by remember { mutableStateOf("") }
 
-    var emailEnabled by remember { mutableStateOf(true) }
-    var passwordEnabled by remember { mutableStateOf(true) }
+    val emailEnabled by remember { mutableStateOf(true) }
+    val passwordEnabled by remember { mutableStateOf(true) }
 
     var passwordVisible by remember { mutableStateOf(false) }
 
