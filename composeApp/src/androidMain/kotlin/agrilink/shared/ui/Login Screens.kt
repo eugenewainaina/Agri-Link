@@ -54,7 +54,7 @@ fun LoginForm(signInWithGoogle: () -> Unit) {
             .fillMaxWidth(),
         color = Color(0xFF171717),
         contentColor = Color.White,
-        shadowElevation =  8.dp,
+        shadowElevation = 8.dp,
         shape = MaterialTheme.shapes.large
     ) {
         Column(
