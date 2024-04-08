@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
     private val googleAuthUiClient by lazy {
         GoogleAuthUiClient(
             context = applicationContext,
-            oneTapClient = Identity.getSignInClient(applicationContext)
+            oneTapClient =  Identity.getSignInClient(applicationContext)
         )
     }
 
